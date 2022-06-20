@@ -1,4 +1,13 @@
 .App {
+  max-width: 300px;
   font-family: sans-serif;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(155, 155, 155);
+  background: linear-gradient(rgb(116, 117, 134), rgb(51, 0, 145));
 }

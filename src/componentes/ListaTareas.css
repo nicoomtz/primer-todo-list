@@ -1,7 +1,24 @@
 .lista-tareas-container {
   display: flex;
   justify-content: space-between;
-  background-color: beige;
+  align-items: center;
+  background-color: rgb(192, 192, 192);
   width: 250px;
   margin: 10px auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.borrar {
+  background-color: pink;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
 }

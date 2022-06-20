@@ -7,7 +7,9 @@ function ListaTareas({ texto, id, eliminarTarea }) {
       <div className="tarea" id={id} key={id}>
         {texto}
       </div>
-      <button onClick={eliminarTarea} id={id}></button>
+      <button onClick={eliminarTarea} id={id} className="borrar">
+        X
+      </button>
     </div>
   );
 }
