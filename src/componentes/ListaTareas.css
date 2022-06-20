@@ -1,0 +1,7 @@
+.lista-tareas-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  width: 250px;
+  margin: 10px auto;
+}
